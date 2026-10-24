@@ -94,7 +94,19 @@ namespace LODSim.UnityBridge
             if (_system == null || _simulated == null || _handle != null)
                 return;
 
-            CurrentLevel = LODLevel.Online;
+            if (CurrentLevel != LODLevel.Online)
+            {
+                try
+                {
+                    OnLODChanged(CurrentLevel, LODLevel.Online);
+                }
+                catch (Exception exception)
+                {
+                    Debug.LogException(exception, this);
+                    return;
+                }
+            }
+
             _handle = _system.Register(this);
         }
 
@@ -105,8 +117,6 @@ namespace LODSim.UnityBridge
 
             _handle.Dispose();
             _handle = null;
-
-            CurrentLevel = LODLevel.Online;
         }
     }
 }
