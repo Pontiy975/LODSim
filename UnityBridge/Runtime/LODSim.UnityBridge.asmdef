@@ -1,0 +1,16 @@
+{
+    "name": "LODSim.UnityBridge",
+    "rootNamespace": "LODSim.UnityBridge",
+    "references": [
+        "GUID:2a6f307a44da4924ba4c7e606b420625"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

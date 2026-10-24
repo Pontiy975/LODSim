@@ -1,0 +1,19 @@
+{
+    "name": "LODSim.UnityBridge.Editor",
+    "rootNamespace": "LODSim.UnityBridge.Editor",
+    "references": [
+        "GUID:2a6f307a44da4924ba4c7e606b420625",
+        "GUID:a489e7c64029914498925c35994c1595"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
